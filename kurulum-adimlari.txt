@@ -1,0 +1,52 @@
+BEYDE DRIVE — YAYIN ÖNCESİ KURULUM ADIMLARI
+===========================================
+
+A) GİZLİLİK POLİTİKASI İÇİN İNTERNET SİTESİ (GitHub Pages, ücretsiz)
+--------------------------------------------------------------------
+1. github.com'a beydeapps@gmail.com ile üye olun. Kullanıcı adı: beydeapps
+   (kişisel adınız görünmesin diye bu adı kullanın).
+2. Sağ üstte "+" › "New repository". Repository name tam olarak:  beydeapps.github.io
+   "Public" seçili olsun › "Create repository".
+3. Açılan sayfada "uploading an existing file" bağlantısına tıklayın.
+   play-store/site klasöründeki 3 dosyayı sürükleyin: index.html, gizlilik.html, simge.png
+   › "Commit changes".
+4. 1-2 dakika sonra site açılır:
+     Ana sayfa:           https://beydeapps.github.io
+     Gizlilik politikası:  https://beydeapps.github.io/gizlilik.html
+5. Play Console › Uygulama içeriği › Gizlilik politikası alanına ikinci adresi yazın.
+
+B) KÜÇÜK SUNUCU (Cloudflare Workers, ücretsiz) — davet ödülü ve adaptör hediyesi koruması
+----------------------------------------------------------------------------------------
+Bu olmadan da uygulama çalışır; sadece "davet edene 7 gün" ödülü kapalı kalır ve adaptör hediyesi
+yalnızca cihazda korunur.
+1. dash.cloudflare.com'a beydeapps@gmail.com ile üye olun.
+2. Sol menü › "Workers & Pages" › "Create" › "Create Worker". Ad: beyde › "Deploy".
+3. "Edit code" › içindeki her şeyi silin, beyde-sunucu/worker.js dosyasının içeriğini yapıştırın › "Deploy".
+4. Sol menü › "Storage & Databases" › "KV" › "Create a namespace". Ad: BEYDE.
+5. Worker'a dönün › "Settings" › "Bindings" › "Add" › "KV namespace":
+     Variable name: BEYDE     KV namespace: BEYDE   › "Deploy".
+6. Worker'ın adresini (ör. https://beyde.xxxx.workers.dev) bana gönderin; uygulamaya ekleyip derlerim.
+
+C) ABONELİĞİ TEST ETME (para ödemeden)
+--------------------------------------
+1. Play Console › Ayarlar (sol alt) › "Lisans testi" › kendi Gmail adresinizi ve test edecek
+   arkadaşlarınızınkini ekleyin › Kaydet. Bu hesaplarla yapılan satın alımlar ÜCRETSİZDİR.
+2. Uygulamayı kapalı test kanalına yükleyin (AAB), test listesine kendinizi ekleyin, test
+   bağlantısından Play Store üzerinden kurun. (APK'yı elle kurarsanız abonelik çalışmaz.)
+3. Abonelik ürünü "beyde_pro" ve planları "aylik" / "yillik" etkin olmalı (yayin-kontrol-listesi.txt, madde 10).
+4. Uygulamada kilitli bir sekmeye dokunun → planlar ve fiyatlar görünmeli.
+   (Deneme süresi içindeyseniz Ayarlar › Beyde Pro'ya dokunun.)
+5. "Aylık"ı seçin → Google ödeme penceresinde "Test kartı, her zaman onaylanır" seçin.
+6. Kontrol: "Beyde Pro açıldı" sesi, menüdeki kilitler kalkar, Ayarlar'da "Açık · abone".
+7. Test aboneliklerinde süre hızlı geçer: aylık plan 5 dakikada bir yenilenir, 6 yenilemeden
+   sonra biter. İptal denemesi: Play Store › Ödemeler ve abonelikler › Abonelikler › İptal.
+   İptalden sonra uygulamayı açınca (dönem bitince) Pro kapanmalı.
+8. "Satın alımları geri yükle": uygulamayı silip yeniden kurun → Ayarlar › Beyde Pro ›
+   "Satın alımları geri yükle" → Pro tekrar açılmalı.
+
+D) VERİ GÜVENLİĞİ FORMU İÇİN EKLER
+---------------------------------
+- Finansal bilgi › Satın alma geçmişi: Toplanır (Google Play üzerinden), uygulama işlevi için, paylaşılmaz.
+- Cihaz veya diğer kimlikler: Toplanır — uygulamanın ürettiği rastgele kod ve karma kimlik
+  (davet ve adaptör hediyesi için), paylaşılmaz, şifreli aktarılır (HTTPS).
+  Sunucu (B) kurulmazsa bu madde gerekmez.

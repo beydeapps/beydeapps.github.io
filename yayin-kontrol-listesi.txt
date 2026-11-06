@@ -1,0 +1,89 @@
+GOOGLE PLAY YAYIN KONTROL LİSTESİ — Beyde Drive
+=================================================
+
+1) Play Console geliştirici hesabı (tek seferlik 25 USD). Kurumsal hesap açarsanız D-U-N-S numarası istenir.
+
+2) Uygulama paketi — HAZIR
+   - Yüklenecek dosya: BeydeDrive-10.7-play.aab (Play sürümü, hedef API 36 — Play'in 31 Ağustos 2026'dan beri
+     yeni uygulamalar ve güncellemeler için istediği seviye).
+   - Play sürümünde kapalı olanlar: kendi kendini güncelleme ve dosyadan APK kurma (REQUEST_INSTALL_PACKAGES
+     izni yok), "diğer uygulamaların üzerinde göster" izni (SYSTEM_ALERT_WINDOW yok), lisans kodu girişi.
+     Güncellemeler Play'den gelir.
+   - Kendi dağıttığınız APK (arkadaşlara) eskisi gibi: ./build.sh  → APK;  ./build.sh play → AAB.
+     İkisi aynı paket adı ve aynı anahtarla imzalı; aynı cihazda biri diğerinin üzerine kurulabilir.
+   - İMZA — ÖNEMLİ: Play Console uygulama oluştururken "Uygulama imzalama anahtarı" adımında Google'ın ürettiği
+     anahtarı DEĞİL, "Kendi anahtarımı kullan / Java anahtar deposundan dışa aktar ve yükle" seçeneğini seçin ve
+     beyde.keystore'u (PEPK aracıyla) yükleyin. Sebep: Beyde Bildirim eklentisi (mesaj okuma + şarkı adı) ve
+     arkadaşlarınıza verdiğiniz APK aynı anahtarla imzalı. Google kendi anahtarıyla imzalarsa Play'den kuranlarda
+     eklenti çalışmaz ve APK'dan Play sürümüne güncelleme yapılamaz. Bu seçim sonradan değiştirilemez.
+   - beyde.keystore'u ve şifresini kaybetmeyin, kimseyle paylaşmayın. Anahtar sertifikasında adınız (CN) yazar;
+     kullanıcılar bunu normalde görmez.
+   - BeydeDrive-play-test.apk: AAB ile aynı içerik; Play'e yüklemeden önce cihazda denemek için.
+
+3) Mağaza sayfası
+   - magaza-metni.txt: ad, kısa ve uzun açıklama (TR + EN + DE)
+   - simge-512.png, tanitim-gorseli-1024x500.png (Beyde Drive adıyla yenilendi)
+   - ekran-goruntuleri/1-6.png (1920×1080, Beyde Drive adıyla yenilendi) + kart-gece/kart-fis paylaşım örnekleri.
+     Bunlar uygulamanın kendi çizim koduyla üretildi, değerler örnektir. Gerçek teyp/telefon ekran görüntüleri
+     eklerseniz daha güven verir (Play en az 2, en fazla 8 görsel ister).
+   - beyde-drive-tanitim.mp4 (29 sn): Play "tanıtım videosu" alanı YouTube bağlantısı ister — videoyu YouTube'a
+     (liste dışı da olabilir) yükleyip bağlantıyı girin. Instagram/Facebook'ta da paylaşılabilir.
+
+4) Gizlilik politikası
+   - gizlilik-politikasi.html (iletişim: beydeapps@gmail.com, hazır) dosyasını
+     herkese açık bir adrese yükleyin (kendi siteniz, GitHub Pages vb.) ve adresi Play Console'a girin.
+
+5) Veri güvenliği formu (Data safety) — önerilen cevaplar
+   - Veri toplanıyor mu / paylaşılıyor mu: Geliştiriciye veri gönderilmiyor → "Toplanmıyor" denebilir.
+     Ancak konum, üçüncü taraf harita/rota/hava hizmetlerine istek sırasında iletildiği için "Konum — paylaşılır
+     (uygulama işlevi için)" işaretlemek en güvenli yoldur.
+   - Veriler aktarım sırasında şifreleniyor mu: HTTPS kullanılan hizmetler için evet.
+   - Kullanıcı verilerin silinmesini isteyebilir mi: Evet (uygulama içinden / kaldırarak).
+
+6) İzin beyanları (Play Console sorar)
+   - ACCESS_BACKGROUND_LOCATION: park yerini kaydetme ve bildirim — kısa bir video ile gerekçe istenebilir.
+   - CALL_PHONE: kaza algılamada acil durum kişisini arama. Play, gerekçe sorabilir; reddedilirse bu izin
+     kaldırılır ve arama ekranı (ACTION_DIAL) açılır, kullanıcı tek dokunuşla arar.
+   - CAMERA: video kaydı / araç kamerası (yalnızca kullanıcı başlatınca). RECORD_AUDIO: sesli komut ve
+     "Hey Beyde" (yalnızca kullanıcı açınca). BLUETOOTH_SCAN/CONNECT: OBD, TPMS ve telefon–teyp bağlantısı.
+   - ACCESS_WIFI_STATE / CHANGE_WIFI_MULTICAST_STATE: telefon–teyp eşitlemesinde aynı ağdaki diğer cihazı bulmak.
+   - USB (izin değil, özellik: android.hardware.usb.host, zorunlu değil): USB kablolu OBD adaptörü. Takınca Android izin sorar.
+   - MODIFY_AUDIO_SETTINGS: medya ekranındaki bas/tiz ayarı (normal izin, beyan gerekmez).
+   - Ana ekran (HOME) girişi: kullanıcı "Beyde Drive'ı ana ekran yap" derse açılır; Play'de launcher kategorisi gerektirmez.
+   - Açık kaynak: usb-serial-for-android (MIT) — lisans metni uygulama içinde (assets), Ayarlar'da adı geçiyor.
+   - SMS izni KULLANILMIYOR (Play kısıtlıyor); kaza mesajı, mesaj uygulaması önceden doldurulmuş açılarak gönderilir.
+
+7) İçerik derecelendirme anketi: şiddet, cinsellik, kumar, kullanıcılar arası iletişim yok → "Herkes".
+
+8) Hedef kitle: 18 yaş üstü (sürücüler). "Çocuklara yönelik değil" seçin.
+
+9) Kapalı test: Yeni kişisel hesaplarda Google, üretime çıkmadan önce en az 12 test kullanıcısıyla 14 gün
+   kapalı test şartı koyabiliyor. Arkadaşlarınızı test listesine ekleyin.
+
+10) Beyde Pro aboneliği (Play Faturalandırma eklendi):
+    • Play Console › Para kazanma › Ürünler › Abonelikler › "Abonelik oluştur"
+        Ürün kimliği: beyde_pro      (birebir böyle yazılmalı, uygulama bu kimliği arar)
+        Ad: Beyde Pro
+    • Bu aboneliğe iki "temel plan" ekleyin:
+        Temel plan kimliği: aylik   → Faturalandırma dönemi: 1 ay,  otomatik yenilenen
+        Temel plan kimliği: yillik  → Faturalandırma dönemi: 1 yıl, otomatik yenilenen
+      Fiyatları girin (ör. aylık 79 TL, yıllık 499 TL) ve iki planı da "Etkinleştir".
+    • (İsteğe bağlı) Ömür boyu Pro: Para kazanma › Ürünler › Uygulama içi ürünler › "Ürün oluştur"
+        Ürün kimliği: beyde_pro_omur   (birebir böyle) · Ad: Beyde Pro Ömür Boyu · Fiyat girin (ör. 999 TL) · "Etkinleştir"
+        Tanımlamazsanız uygulamada bu seçenek hiç görünmez.
+    • Play'de ayrıca "ücretsiz deneme" teklifi TANIMLAMAYIN: 30 günlük deneme uygulamanın içinde sayılıyor
+      (kart istemeden). İkisi birden olursa kullanıcı iki kez deneme alır.
+    • Ödeme profili (banka hesabı, vergi bilgisi) tamamlanmadan abonelik oluşturulamaz.
+    • Uygulama Play'e en az bir kez (kapalı test dahil) yüklenmeden abonelik ekranı fiyat gösteremez.
+    • Test: Play Console › Ayarlar › Lisans testi'ne kendi Gmail'inizi ekleyin; test satın alımları ücretsizdir.
+    • Ücretsiz kalanlar: gösterge (ilk 4 tema), arıza kodu okuma, sıcaklık, medya, ayarlar.
+      Abonelikle açılanlar: canlı veri, arıza kodu silme, harita, yolculuk, performans, araçlar, ilk 4 dışındaki temalar ve tema tasarımcısı,
+      video kaydı, sesli asistan, dyno, sağlık karnesi.
+      Beyde OBD adaptörü ilk bağlandığında 3 ay Pro hediye edilir (kalıcı değil, kurulum başına bir kez).
+    • Play sürümünde lisans kodu girişi YOK (Play dışı dijital satış, Play kurallarına aykırı).
+    • Veri güvenliği formu: "Finansal bilgi › Satın alma geçmişi" — ödeme Google Play'de işlenir,
+      geliştiriciye kart bilgisi gelmez.
+
+11) Veri güvenliği formuna eşitleme için ek: Telefon–teyp eşitlemesi yalnızca kullanıcının kendi iki cihazı
+    arasında, yerel ağ/Bluetooth üzerinden ve şifreli; geliştiriciye ya da üçüncü tarafa gitmez →
+    "toplama/paylaşma" sayılmaz.

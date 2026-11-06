@@ -1,0 +1,147 @@
+BEYDE DRIVE — GOOGLE PLAY MAĞAZA METİNLERİ
+=============================================
+
+UYGULAMA ADI (en fazla 30 karakter)
+TR: Beyde Drive: OBD2 Arıza Tespit
+EN: Beyde Drive: OBD2 Car Scanner
+
+KISA AÇIKLAMA (en fazla 80 karakter)
+TR: OBD2 arıza tespit, arıza kodu okuma/silme, canlı gösterge, 0-100 ve navigasyon
+EN: OBD2 scanner: read & clear fault codes, live gauges, 0-100 and navigation
+
+UZUN AÇIKLAMA — TÜRKÇE (en fazla 4000 karakter)
+-----------------------------------------------
+Beyde Drive, aracınızın OBD2 soketine takılan uygun bir OBD2 adaptörüyle (klasik Bluetooth, Bluetooth LE, Wi-Fi ya da USB kablo) çalışan arıza tespit ve araç göstergesi uygulamasıdır. Motor arıza lambası (check engine) yandığında arıza kodunu okur, Türkçe açıklar ve siler; canlı veriyi teyp ya da telefonda şık göstergelerle gösterir.
+
+■ Göstergeler
+• 20'den fazla tema; ibre, renk, yazı tipi ve dolgu değiştirilebilir
+• Hız, devir, su ve yağ sıcaklığı, turbo, akü voltajı, gaz kelebeği, motor yükü ve daha fazlası
+• Gece modu, otomatik ve güneşte ekstra parlaklık, vites ışığı
+• Hararet, devir, hız ve voltaj için sesli ve görsel uyarılar
+
+■ Arıza kodları
+• Arıza kodu okuma (ücretsiz) ve silme (Pro); yaklaşık 450 standart kod için Türkçe açıklama
+• Arıza anı değerleri (freeze frame), paylaşılabilir arıza raporu, yeni kodda bildirim
+• Arıza sihirbazı: belirtiyi seçin (çekmiyor, titriyor, hararet…); sorular, kısa ölçüm ve kodlarla kontrol edilmesi önerilen olası sebepler (tahmindir, kesin teşhis değildir) ve servise / ustanıza gösterebileceğiniz özet; araç sorunsuzken referans ölçümü
+
+■ Performans
+• 0-100, 0-200, 100-200, 402 m, ara hızlanma, 100-0 fren testi
+• Işıkla start, tepki süresi, GPS tur sayacı, "hayalet" yarış, tahmini dyno eğrisi
+• Paylaşılabilir sonuç kartları, göstergeli video kaydı
+
+■ Yol ve navigasyon
+• Sesli navigasyon, yol hız sınırı ve hız kamerası uyarısı (OpenStreetMap'te işaretli kameralar)
+• İnternetsiz harita, park yeri ve park süresi, yakındaki benzinlik/LPG/otopark/servis/şarj, rotada hava durumu
+
+■ Müzik
+• Telefondaki ve USB bellekteki şarkılar: favoriler, çalma listeleri, klasörler, en çok dinlenenler, arama
+• Kaldığı yerden devam, bas/tiz ayarı, navigasyon konuşurken müziği kısma
+• Spotify, YouTube Music gibi uygulamaları göstergeden kontrol
+
+■ Araç ve masraf
+• Yakıt defteri ve gerçek tüketim, masraf takibi, PDF rapor
+• Bakım, sigorta, kasko, muayene ve MTV hatırlatıcıları
+• Akü sağlığı, lastik basıncı (Bluetooth TPMS), aylık sağlık karnesi
+• Paylaşılabilir araç kartı, aylık karne ve yılın özeti (Instagram/Facebook hikayesi)
+• Birden fazla araç ve sürücü; telefon ↔ teyp şifreli, sunucusuz eşitleme
+
+■ Sürüş ve güvenlik
+• Sürüş puanı, haftalık özet, rozetler, yolculuk tekrarı
+• Kaza algılama ve acil durum kişisi, araç kamerası, mola uyarısı
+
+■ Sesli asistan ve kolay kullanım
+• Tüm ayarlar sesle ("parlaklığı biraz artır", "hararet uyarısını 110 yap"), müzik ("USB'deki şarkıları çal"), kayıt ("40 litre yakıt aldım 1800 lira"), bilgi ("sürüş puanım") ve kendi kısa yollarınız
+• Asistan araca komut göndermez, kesin teşhis koymaz; değerleri okur, arıza sihirbazını önerir
+• Sürüş modları, hızlı ayar paneli, geri al, QR ile ayar aktarma, adaptör testi
+• Teypte ana ekran olarak kullanma, açılışta otomatik başlatma
+
+■ Ücretsiz ve Beyde Pro
+• Gösterge ve arıza kodu okuma her zaman ücretsizdir
+• İlk 30 gün tüm özellikler ücretsiz, kart bilgisi istenmez
+• Sonrasında canlı veri, kod silme, harita, kayıtlar, performans, masraf takibi, tüm temalar, video ve asistan soruları için aylık/yıllık Beyde Pro aboneliği ya da tek seferlik ömür boyu satın alma
+• Abonelik Google Play'den yönetilir, istediğiniz zaman iptal edilir
+• Beyde OBD adaptörü ilk bağlandığında 3 ay Beyde Pro hediye
+• Arkadaşını davet et: davetle kuran arkadaşın 15 gün ek deneme kazanır
+
+Not: Değerler aracın bildirdiği verilere ve tahmini hesaplara dayanır; sapma olabilir. Performans ölçümlerini yalnızca kapalı pistte yapın. Uygulama araca kontak açma/kapama gibi komutlar göndermez.
+
+UZUN AÇIKLAMA — ENGLISH
+-----------------------
+Beyde Drive is a car dashboard for head units and phones. It works with an OBD2 adapter suited to your car (classic Bluetooth, Bluetooth LE, Wi-Fi or USB cable).
+
+■ Gauges — 20 dashboard themes with selectable needle style, color, font and fill; speed, RPM, coolant and oil temperature, boost, battery voltage, throttle, engine load and more; night mode, auto brightness, extra brightness for sunlight, shift light; spoken and visual alerts for overheating, RPM, speed and voltage.
+■ Fault codes — read and clear trouble codes, descriptions for about 450 standard codes, freeze frame data, shareable report. Fault wizard: pick a symptom (no power, shaking, overheating, won't start…) and get an estimated list of possible causes worth checking from questions, a short stationary measurement and the fault codes, plus a summary to show your mechanic (an estimate, not a diagnosis); save a reference measurement while the car runs fine to compare later readings side by side.
+■ Performance — 0-100, 0-200, 100-200 km/h, quarter mile, rolling acceleration and 100-0 braking; light start with reaction time, target speed, GPS lap timer, ghost race against your best run, estimated dyno chart, shareable result cards, video recording with gauge overlay.
+■ Road — voice navigation, road speed limit and speed camera alerts (cameras mapped in OpenStreetMap only), cached map for areas you have viewed, parking spot and parking timer, nearby fuel/LPG/parking/repair/charging, weather along the route.
+■ Music — songs on your phone and USB stick with favourites, playlists, folders, most played and search; resume where you left off, bass/treble, music lowered during navigation prompts; control other music apps from the dashboard.
+■ Car & costs — fuel log with real consumption, expense tracking, maintenance/insurance/inspection/tax reminders, battery health, tire pressure (Bluetooth TPMS), monthly health score, shareable car card and real-consumption card, monthly report and year in review you can post as an Instagram/Facebook story, multiple cars and drivers, automatic phone ↔ head unit sync over Wi-Fi or Bluetooth (encrypted, no server).
+■ Driving & safety — driving score per trip, weekly summary and badges, trip replay, crash detection with emergency contact, dashcam, fatigue and break reminders.
+■ Easy to use — a voice assistant that changes every setting, plays music, logs fuel and expenses, answers with live values and runs your own shortcuts (it never sends commands to the car and gives no definite diagnosis), use as the head unit home screen, driving modes with time and location rules, quick settings panel, undo, transfer settings by QR code, adapter test, make suggestion from the VIN.
+■ Free and Beyde Pro — gauges and reading fault codes are always free. All features are free for the first 30 days, no card required. After that, live data, clearing fault codes, map and navigation, trip logs, performance timing, vehicles and costs, all themes, video recording and the voice assistant need a monthly or yearly Beyde Pro subscription (billed through Google Play, cancellable at any time) or a one-time lifetime purchase. A Beyde OBD adapter gives 3 months of Beyde Pro when first connected.
+
+Values are based on data reported by the car and on estimates; deviations are possible. Only do performance runs on a closed track. The app never sends ignition or similar commands to the car.
+
+UZUN AÇIKLAMA — DEUTSCH
+-----------------------
+Beyde Drive ist ein Fahrzeug-Dashboard für Autoradios und Smartphones. Es funktioniert mit einem zu Ihrem Auto passenden OBD2-Adapter (klassisches Bluetooth, Bluetooth LE, WLAN oder USB-Kabel).
+
+■ Anzeigen — 20 Dashboard-Designs mit wählbarem Zeigerstil, Farbe, Schrift und Füllung; Geschwindigkeit, Drehzahl, Kühlmittel- und Öltemperatur, Ladedruck, Batteriespannung, Drosselklappe, Motorlast und mehr; Nachtmodus, automatische Helligkeit, Extra-Helligkeit bei Sonne, Schaltblitz; gesprochene und sichtbare Warnungen für Überhitzung, Drehzahl, Tempo und Spannung.
+■ Fehlercodes — Fehlercodes lesen und löschen, Beschreibungen für rund 450 Standardcodes, Freeze-Frame-Daten, teilbarer Bericht. Fehler-Assistent: Symptom wählen (keine Leistung, Vibrieren, Überhitzung, springt nicht an…) und eine geschätzte Liste möglicher Ursachen zum Prüfen aus Fragen, einer kurzen Messung im Stand und den Fehlercodes erhalten, dazu eine Zusammenfassung für die Werkstatt (Schätzung, keine Diagnose); Referenzmessung speichern, solange das Auto einwandfrei läuft, und spätere Werte daneben sehen.
+■ Leistung — 0-100, 0-200, 100-200 km/h, Viertelmeile, Zwischenbeschleunigung und Bremsen 100-0; Ampelstart mit Reaktionszeit, Zielgeschwindigkeit, GPS-Rundenzeit, Geisterrennen gegen deine Bestzeit, geschätzte Leistungskurve, teilbare Ergebniskarten, Videoaufnahme mit Anzeigen.
+■ Straße — Sprachnavigation, Tempolimit-Anzeige, zwischengespeicherte Karte für bereits angesehene Gebiete, Parkplatz und Parkzeit, Tankstellen/LPG/Parkplätze/Werkstätten in der Nähe, Wetter auf der Route.
+■ Musik — Titel auf Handy und USB-Stick mit Favoriten, Playlists, Ordnern, Meistgehörtem und Suche; Fortsetzen an der letzten Stelle, Bass/Höhen, Musik wird bei Navigationsansagen leiser; andere Musik-Apps vom Cockpit aus steuern.
+■ Auto & Kosten — Tankbuch mit realem Verbrauch, Kostenübersicht, Erinnerungen für Wartung, Versicherung, TÜV und Steuer, Batteriezustand, Reifendruck (Bluetooth-TPMS), monatlicher Zustandsbericht, teilbare Fahrzeug- und Verbrauchskarte, Monatsbericht und Jahresrückblick als Instagram/Facebook-Story, mehrere Fahrzeuge und Fahrer, automatische Synchronisierung Handy ↔ Autoradio per WLAN oder Bluetooth (verschlüsselt, ohne Server).
+■ Fahren & Sicherheit — Fahrwertung pro Fahrt, Wochenübersicht und Abzeichen, Fahrtwiedergabe, Unfallerkennung mit Notfallkontakt, Dashcam, Müdigkeits- und Pausenhinweis.
+■ Einfache Bedienung — ein Sprachassistent, der alle Einstellungen ändert, Musik abspielt, Tankvorgänge und Ausgaben einträgt, mit Live-Werten antwortet und eigene Kurzbefehle ausführt (sendet nie Befehle an das Auto, stellt keine sichere Diagnose), Nutzung als Startbildschirm des Radios, Fahrmodi mit Zeit- und Ortsregeln, Schnelleinstellungen, Rückgängig, Einstellungen per QR-Code übertragen, Adaptertest, Markenvorschlag aus der FIN.
+■ Kostenlos und Beyde Pro — Anzeigen und Fehlercodes lesen sind immer kostenlos. In den ersten 30 Tagen sind alle Funktionen kostenlos, ohne Kartenangabe. Danach benötigen Live-Daten, Fehlercodes löschen, Karte und Navigation, Fahrtenaufzeichnung, Leistungsmessung, Fahrzeuge und Kosten, alle Designs, Videoaufnahme und Sprachassistent ein Monats- oder Jahresabo von Beyde Pro (über Google Play, jederzeit kündbar) oder einen einmaligen Lebenslang-Kauf. Ein Beyde-OBD-Adapter schenkt beim ersten Verbinden 3 Monate Beyde Pro.
+
+Die Werte beruhen auf den Daten des Fahrzeugs und auf Schätzungen; Abweichungen sind möglich. Leistungsmessungen nur auf abgesperrter Strecke durchführen. Die App sendet keine Zünd- oder ähnlichen Befehle an das Fahrzeug.
+
+DE — App-Name: Beyde Drive: OBD2 Diagnose
+DE — Kurzbeschreibung: OBD2-Diagnose: Fehlercodes lesen & löschen, Live-Anzeigen, 0-100, Navigation
+
+UZUN AÇIKLAMA — РУССКИЙ
+-----------------------
+Beyde Drive — приборная панель для магнитол и смартфонов. Работает с подходящим для вашего автомобиля OBD2-адаптером (классический Bluetooth, Bluetooth LE, Wi-Fi или USB-кабель).
+
+■ Приборы — 20 тем оформления с выбором стрелки, цвета, шрифта и заливки; скорость, обороты, температура ОЖ и масла, наддув, напряжение АКБ, дроссель, нагрузка и многое другое; ночной режим, автояркость, дополнительная яркость на солнце, индикатор переключения передач; голосовые и визуальные предупреждения о перегреве, оборотах, скорости и напряжении.
+■ Коды ошибок — чтение и сброс ошибок, описания примерно 450 стандартных кодов, данные стоп-кадра, отчёт для отправки. Мастер диагностики: выберите симптом (не тянет, трясёт, перегрев, не заводится…) и получите примерный список возможных причин для проверки по вопросам, короткому замеру на месте и кодам ошибок, а также сводку для мастера (это предположение, а не диагноз); сохраните эталонный замер, пока авто исправно, чтобы сравнивать с ним последующие значения.
+■ Динамика — 0-100, 0-200, 100-200 км/ч, 402 м, разгон в движении и торможение 100-0; старт по светофору со временем реакции, целевая скорость, GPS-секундомер круга, гонка с «призраком» лучшего заезда, расчётная кривая мощности, карточки результатов, видеозапись с приборами.
+■ Дорога — голосовая навигация, ограничение скорости и предупреждения о камерах (только отмеченные в OpenStreetMap), кэш карты для просмотренных мест, место парковки и таймер, ближайшие АЗС/газ/парковки/сервисы/зарядки, погода по маршруту.
+■ Музыка — песни на телефоне и USB-флешке: избранное, плейлисты, папки, часто слушаемые и поиск; продолжение с места остановки, бас/высокие, приглушение музыки во время подсказок навигации; управление другими музыкальными приложениями с приборной панели.
+■ Авто и расходы — журнал заправок с реальным расходом, учёт расходов, напоминания о ТО, страховке, техосмотре и налоге, состояние АКБ, давление в шинах (Bluetooth TPMS), ежемесячная оценка состояния, карточки авто и расхода, месячный отчёт и итоги года для историй Instagram/Facebook, несколько автомобилей и водителей, автоматическая синхронизация телефон ↔ магнитола по Wi-Fi или Bluetooth (с шифрованием, без сервера).
+■ Вождение и безопасность — оценка каждой поездки, недельная сводка и награды, повтор поездки, определение ДТП с вызовом экстренного контакта, видеорегистратор, напоминания об усталости и отдыхе.
+■ Удобство — голосовой помощник, который меняет все настройки, включает музыку, записывает заправки и расходы, отвечает текущими значениями и выполняет ваши ярлыки (не отправляет команды автомобилю и не ставит точный диагноз), использование как главного экрана магнитолы, режимы езды по времени и месту, панель быстрых настроек, отмена действий, перенос настроек по QR-коду, проверка адаптера, подсказка марки по VIN.
+■ Бесплатно и Beyde Pro — приборы и чтение ошибок всегда бесплатны. Первые 30 дней все функции бесплатны, без карты. Затем живые данные, сброс ошибок, карта и навигация, журналы поездок, замеры динамики, автомобили и расходы, все темы, видеозапись и голосовой помощник требуют месячной или годовой подписки Beyde Pro (через Google Play, отмена в любое время) либо разовой покупки «навсегда». Адаптер Beyde OBD при первом подключении дарит 3 месяца Beyde Pro.
+
+Значения основаны на данных автомобиля и расчётах; возможны отклонения. Замеры динамики проводите только на закрытой трассе. Приложение никогда не отправляет автомобилю команды зажигания и подобные.
+
+RU — Название: Beyde Drive: OBD2 диагностика
+RU — Краткое описание: OBD2-сканер: чтение и сброс ошибок, живые приборы, 0-100 и навигация
+
+UZUN AÇIKLAMA — العربية
+-----------------------
+Beyde Drive لوحة عدادات للسيارة تعمل على شاشات السيارات والهواتف. يعمل مع محول OBD2 مناسب لسيارتك (بلوتوث كلاسيكي أو بلوتوث LE أو Wi-Fi أو كابل USB).
+
+■ العدادات — 20 سمة مع اختيار شكل الإبرة واللون والخط والتعبئة؛ السرعة، الدوران، حرارة سائل التبريد والزيت، ضغط التيربو، جهد البطارية، الخانق، حمل المحرك والمزيد؛ الوضع الليلي، السطوع التلقائي، سطوع إضافي تحت الشمس، ضوء تبديل الغيار؛ تنبيهات صوتية ومرئية للسخونة والدوران والسرعة والجهد.
+■ رموز الأعطال — قراءة رموز الأعطال ومسحها، شروح لنحو 450 رمزاً قياسياً، بيانات لحظة العطل، تقرير قابل للمشاركة. معالج الأعطال: اختر العَرَض (ضعف القوة، اهتزاز، ارتفاع الحرارة، لا يشتغل…) لتحصل على قائمة تقديرية بالأسباب المحتملة التي يُنصح بفحصها، اعتماداً على أسئلة وقياس قصير والسيارة متوقفة ورموز الأعطال، مع ملخص تعرضه على الميكانيكي (تقدير وليس تشخيصاً)؛ واحفظ قياساً مرجعياً بينما تعمل السيارة بشكل سليم لمقارنة القياسات اللاحقة به.
+■ الأداء — 0-100 و0-200 و100-200 كم/س، ربع ميل، التسارع أثناء السير والكبح 100-0؛ انطلاق بالإشارة مع زمن رد الفعل، سرعة مستهدفة، مؤقت لفات GPS، سباق ضد أفضل محاولة، منحنى قوة تقديري، بطاقات نتائج قابلة للمشاركة، تسجيل فيديو مع العدادات.
+■ الطريق — ملاحة صوتية، حد السرعة وتنبيهات الكاميرات (المسجلة في OpenStreetMap فقط)، خريطة مخزنة للمناطق التي شاهدتها، مكان الركن ومؤقت الركن، أقرب محطات الوقود والغاز والمواقف والورش والشحن، الطقس على المسار.
+■ الموسيقى — أغاني الهاتف وذاكرة USB مع المفضلة وقوائم التشغيل والمجلدات والأكثر استماعاً والبحث؛ المتابعة من حيث توقفت، الجهير/الحاد، خفض الموسيقى أثناء إرشادات الملاحة؛ التحكم في تطبيقات الموسيقى الأخرى من لوحة العدادات.
+■ السيارة والتكاليف — سجل التزود بالوقود مع الاستهلاك الفعلي، تتبع المصاريف، تذكير بالصيانة والتأمين والفحص والضرائب، حالة البطارية، ضغط الإطارات (حساسات TPMS بلوتوث)، تقييم شهري لحالة السيارة، بطاقات للسيارة والاستهلاك، تقرير شهري وملخص سنوي لقصص Instagram/Facebook، عدة سيارات وسائقين، مزامنة تلقائية بين الهاتف وشاشة السيارة عبر Wi-Fi أو بلوتوث (مشفرة، بلا خادم).
+■ القيادة والسلامة — تقييم لكل رحلة، ملخص أسبوعي وشارات، إعادة عرض الرحلة، اكتشاف الحوادث مع الاتصال بجهة طوارئ، كاميرا السيارة، تنبيهات التعب والاستراحة.
+■ سهولة الاستخدام — مساعد صوتي يغيّر كل الإعدادات ويشغّل الموسيقى ويسجل التزود بالوقود والمصاريف ويجيب بالقيم المباشرة وينفّذ اختصاراتك (لا يرسل أوامر إلى السيارة ولا يقدّم تشخيصاً قاطعاً)، الاستخدام كشاشة رئيسية لجهاز السيارة، أوضاع قيادة حسب الوقت والمكان، لوحة إعدادات سريعة، تراجع، نقل الإعدادات برمز QR، اختبار المحول، اقتراح الماركة من رقم الهيكل.
+■ مجاني وBeyde Pro — العدادات وقراءة رموز الأعطال مجانية دائماً. جميع الميزات مجانية في أول 30 يوماً دون بطاقة. بعد ذلك تتطلب البيانات المباشرة ومسح الأعطال والخريطة والملاحة وسجلات الرحلات وقياس الأداء والسيارات والمصاريف وكل السمات وتسجيل الفيديو والمساعد الصوتي اشتراك Beyde Pro شهرياً أو سنوياً (عبر Google Play، يمكن إلغاؤه في أي وقت) أو شراءً لمرة واحدة مدى الحياة. يمنح محول Beyde OBD عند أول اتصال 3 أشهر من Beyde Pro.
+
+تعتمد القيم على البيانات التي تبلغ عنها السيارة وعلى تقديرات؛ قد توجد فروق. أجرِ قياسات الأداء في مضمار مغلق فقط. لا يرسل التطبيق أبداً أوامر الإشعال أو ما شابهها إلى السيارة.
+
+AR — الاسم: Beyde Drive: فحص أعطال OBD2
+AR — الوصف القصير: ماسح OBD2: قراءة ومسح الأعطال، عدادات مباشرة، 0-100 وملاحة
+
+KATEGORİ: Otomobil ve Araçlar (Auto & Vehicles)
+İÇERİK DERECELENDİRMESİ: Herkes (anket: şiddet/cinsellik/kumar yok; kullanıcılar arası iletişim yok)
+GİZLİLİK POLİTİKASI ADRESİ: gizlilik-politikasi.html dosyasını herkese açık bir adrese yükleyip o adresi girin.
+
+ANAHTAR KELİMELER (açıklamada doğal olarak geçmeli; Play ayrı anahtar kelime alanı sunmaz)
+TR: OBD2, ELM327, arıza tespit, arıza kodu, motor arıza lambası, check engine, araç teşhis, canlı veri, yakıt tüketimi, Bluetooth OBD
+EN: OBD2 scanner, ELM327, car diagnostic, fault codes, check engine light, live data, fuel consumption, Bluetooth OBD
